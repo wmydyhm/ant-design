@@ -42,7 +42,7 @@ class App extends React.Component {
   }
 
   next() {
-    const current = this.state.current + 1;
+    const current = this.state.current + 2;
     this.setState({ current });
   }
 
